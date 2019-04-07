@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "BBB",
+        "BBB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "sm:molten_bone"
+        }
+    },
+    
+    "result":
+    {
+        "item": "sm:sesh_block",
+        "count": 1
+    }
+}

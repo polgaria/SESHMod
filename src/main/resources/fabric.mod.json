@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "seshmod",
+  "version": "${version}",
+
+  "name": "SESHMod",
+  "description": "A Minecraft mod that enhances the edgy teen twitter experience",
+  "authors": [
+    "geni"
+  ],
+  "contact": {
+    "homepage": "https://polgarian.life",
+    "sources": "https://github.com/polgaria/SESHMod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/seshmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "life.polgarian.SESHMod.SESHMod"
+    ]
+  },
+
+  "requires": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*",
+  },
+}

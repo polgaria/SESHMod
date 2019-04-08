@@ -8,7 +8,7 @@ import net.minecraft.util.Lazy;
 import java.util.function.Supplier;
 
 public enum ModToolMaterials implements ToolMaterial {
-	MOLTEN_BONE(4, 250, 6.0F, 2.0F, 14, () -> {
+	MOLTEN_BONE(5, 10000, Float.MAX_VALUE, Float.MAX_VALUE, 666, () -> {
 		return Ingredient.ofItems(ModItems.MOLTEN_BONE);
 	});
 

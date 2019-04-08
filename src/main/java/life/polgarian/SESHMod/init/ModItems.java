@@ -17,10 +17,10 @@ public class ModItems {
 	}
 
 	public static void init() {
-		register("sesh_axe", new SESHAxe(ToolMaterials.DIAMOND, 5.0F, -3.0F, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
-		register("sesh_pickaxe", new SESHPickaxe(ModToolMaterials.MOLTEN_BONE, 5, -3.0F, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
-		register("sesh_spade", new ShovelItem(ModToolMaterials.MOLTEN_BONE, 5.0F, -3.0F, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
-		register("sesh_sword", new SwordItem(ModToolMaterials.MOLTEN_BONE, 5, -3.0F, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
+		register("sesh_axe", new SESHAxe(ToolMaterials.DIAMOND, Float.MAX_VALUE, 0, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
+		register("sesh_pickaxe", new SESHPickaxe(ModToolMaterials.MOLTEN_BONE, Integer.MAX_VALUE, 0, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
+		register("sesh_spade", new ShovelItem(ModToolMaterials.MOLTEN_BONE, Float.MAX_VALUE, 0, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
+		register("sesh_sword", new SwordItem(ModToolMaterials.MOLTEN_BONE, Integer.MAX_VALUE, 0, (new Item.Settings()).itemGroup(ItemGroup.TOOLS)));
 
 		MOLTEN_BONE = register("molten_bone", new Item(new Item.Settings().itemGroup(ItemGroup.MISC)));
 	}

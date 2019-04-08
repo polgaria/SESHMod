@@ -1,6 +1,12 @@
 {
   "item.seshmod.teamsesh_shirt": "TeamSESH",
+  
   "item.seshmod.molten_bone": "Molten Bone",
+
+  "item.seshmod.sesh_axe": "SESH Axe",
+  "item.seshmod.sesh_pickaxe": "SESH Pickaxe",
+  "item.seshmod.sesh_spade": "SESH Spade",
+  "item.seshmod.sesh_sword": "SESH Sword",
 
   "block.seshmod.sesh_block": "SESH BLOCK"
 }

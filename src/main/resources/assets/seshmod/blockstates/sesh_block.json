@@ -1,5 +1,5 @@
 {
     "variants": {
-        "normal": { "model": "sm:sesh_block" }
+        "": { "model": "seshmod:block/sesh_block" }
     }
 }

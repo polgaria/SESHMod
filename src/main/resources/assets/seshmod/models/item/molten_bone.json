@@ -1,7 +1,7 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "sm:items/molten_bone"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "seshmod:items/molten_bone"
+  }
 } 
    

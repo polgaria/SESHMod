@@ -1,7 +1,6 @@
- 
-//Items
-item.teamsesh_shirt.name=TeamSESH Shirt
-item.molten_bone.name=Molten Bone
+{
+  "item.seshmod.teamsesh_shirt": "TeamSESH",
+  "item.seshmod.molten_bone": "Molten Bone",
 
-//Blocks
-tile.sesh_block.name=SESH Block
+  "block.seshmod.sesh_block": "SESH BLOCK"
+}

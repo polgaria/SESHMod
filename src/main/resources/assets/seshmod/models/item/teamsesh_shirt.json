@@ -1,7 +1,7 @@
 {
-    "parent": "item/generated",
-    "textures": {
-        "layer0": "sm:items/teamsesh_shirt"
-    }
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "seshmod:items/teamsesh_shirt"
+  }
 } 
    

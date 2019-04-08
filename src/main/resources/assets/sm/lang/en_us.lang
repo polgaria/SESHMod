@@ -3,5 +3,18 @@
 item.teamsesh_shirt.name=TeamSESH Shirt
 item.molten_bone.name=Molten Bone
 
+//Tools
+item.sesh_sword.name=The Blade of SESH
+item.sesh_spade.name=SESH Shovel
+item.sesh_pickaxe.name=SESH Pickaxe
+item.sesh_axe.name=SESH Axe
+item.sesh_hoe.name=SESH Hoe
+
 //Blocks
 tile.sesh_block.name=SESH Block
+
+//Armor
+item.teamsesh_beanie.name=TeamSESH Beanie
+item.teamsesh_shirt.name=TeamSESH Shirt
+item.teamsesh_pants.name=TeamSESH Pants
+item.creep_sneakers.name=CREEP Sneakers

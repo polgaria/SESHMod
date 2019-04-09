@@ -1,7 +1,7 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "seshmod:items/sesh_axe"
-  }
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "seshmod:items/sesh_axe"
+    }
 } 
   

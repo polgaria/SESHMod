@@ -20,8 +20,16 @@
   "entrypoints": {
     "main": [
       "life.polgarian.SESHMod.SESHMod"
+    ],
+
+    "client": [
+      "life.polgarian.SESHMod.SESHClientMod"
     ]
   },
+
+  "mixins": [
+    "seshmod.mixins.json"
+  ],
 
   "requires": {
     "fabricloader": ">=0.4.0",

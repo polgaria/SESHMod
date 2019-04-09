@@ -1,5 +1,7 @@
 {
-    "variants": {
-        "": { "model": "seshmod:block/sesh_block" }
+  "variants": {
+    "": {
+      "model": "seshmod:block/sesh_block"
     }
+  }
 }

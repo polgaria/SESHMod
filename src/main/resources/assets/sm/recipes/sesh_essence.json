@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "sm:molten_bone"
+        },
+        {
+            "item": "sm:seshanium_powder"
+        }
+    ],
+    "result": "sm:sesh_essence",
+    "count": 1
+}

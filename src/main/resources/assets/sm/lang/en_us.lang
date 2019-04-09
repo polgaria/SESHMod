@@ -1,7 +1,9 @@
  
 //Items
-item.teamsesh_shirt.name=TeamSESH Shirt
 item.molten_bone.name=Molten Bone
+item.seshanium_powder.name=Seshanium Powder
+item.sesh_essence.name=§l§0SESH Essence
+item.sesh_handle.name=§l§5SESH Handle
 
 //Tools
 item.sesh_sword.name=The Blade of SESH
@@ -12,6 +14,7 @@ item.sesh_hoe.name=SESH Hoe
 
 //Blocks
 tile.sesh_block.name=SESH Block
+tile.seshanium_ore.name=Seshanium Ore
 
 //Armor
 item.teamsesh_beanie.name=TeamSESH Beanie

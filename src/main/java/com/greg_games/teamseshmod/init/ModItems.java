@@ -12,6 +12,7 @@ import com.greg_games.teamseshmod.items.tools.ToolSpade;
 import com.greg_games.teamseshmod.items.tools.ToolSword;
 import com.greg_games.teamseshmod.util.Reference;
 
+import net.minecraft.init.MobEffects;
 import net.minecraft.init.SoundEvents;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
@@ -22,6 +23,7 @@ import net.minecraft.item.ItemHoe;
 import net.minecraft.item.ItemPickaxe;
 import net.minecraft.item.ItemSpade;
 import net.minecraft.item.ItemSword;
+import net.minecraft.potion.PotionEffect;
 import net.minecraftforge.common.util.EnumHelper;
 
 public class ModItems 
@@ -35,6 +37,9 @@ public class ModItems
 	
 	//Items
 	public static final Item MOLTEN_BONE = new ItemBase("molten_bone");
+	public static final Item SESHANIUM_POWDER = new ItemBase("seshanium_powder");
+	public static final Item SESH_ESSENCE = new ItemBase("sesh_essence");
+	public static final Item SESH_HANDLE = new ItemBase("sesh_handle");
 	
 	//Tools
 	public static final ItemSword SESH_SWORD = new ToolSword("sesh_sword", MATERIAL_SESH);

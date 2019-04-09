@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "SS",
+        "SH ",
+        " H "
+    ],
+   
+    "key":
+    {
+        "S":
+        {
+            "item": "sm:sesh_essence"
+        },
+        
+        "H":
+        {
+            "item": "sm:sesh_handle"
+        }
+    },
+   
+    "result":
+    {
+        "item": "sm:sesh_pickaxe",
+        "count": 1
+    }
+}

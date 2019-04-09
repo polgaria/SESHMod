@@ -1,0 +1,18 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:stick"
+        },
+        {
+            "item": "minecraft:diamond"
+        },
+        {
+            "item": "sm:sesh_essence"
+        }
+    ],
+    "result": {
+        "item": "sm:sesh_handle",
+        "count": 1
+    }
+}

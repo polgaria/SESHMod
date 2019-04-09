@@ -5,7 +5,10 @@ import com.greg_games.teamseshmod.init.ModItems;
 import com.greg_games.teamseshmod.util.IHasModel;
 
 import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 public class ItemBase extends Item implements IHasModel {
 	
@@ -13,7 +16,7 @@ public class ItemBase extends Item implements IHasModel {
 	{
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.COMBAT);
+		setCreativeTab(CreativeTabs.MATERIALS);
 		
 		ModItems.ITEMS.add(this);
 	}
@@ -23,6 +26,7 @@ public class ItemBase extends Item implements IHasModel {
 	{
 		Main.proxy.registerItemRenderer(this, 0, "inventory");
 	}
+
 
 }
 

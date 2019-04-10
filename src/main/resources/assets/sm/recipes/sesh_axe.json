@@ -3,8 +3,8 @@
    
     "pattern":
     [
-        "SSS",
-        " H ",
+        "SS ",
+        "SH ",
         " H "
     ],
    
@@ -23,7 +23,7 @@
    
     "result":
     {
-        "item": "sm:sesh_pickaxe",
+        "item": "sm:sesh_axe",
         "count": 1
     }
 }

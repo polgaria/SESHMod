@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        "   ",
+        "S S",
+        "S S"
+    ],
+   
+    "key":
+    {
+        "S":
+        {
+            "item": "seshmod:sesh_essence"
+        }
+    },
+   
+    "result":
+    {
+        "item": "seshmod:creep_sneakers",
+        "count": 1
+    }
+}

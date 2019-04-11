@@ -11,7 +11,12 @@ import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
-	public static Item SESH_ESSENCE;
+	public static final Item SESH_ESSENCE = register("sesh_essence", new ShinyItem(
+			new Item.Settings()
+				.itemGroup(ModItemGroups.SESH)
+				.rarity(Rarity.EPIC)
+		)
+	);
 
 	private static Item register(String name, Item item) {
 		Registry.register(Registry.ITEM, new Identifier("seshmod", name), item);
@@ -101,13 +106,6 @@ public class ModItems {
 
 
 		// Materials
-		SESH_ESSENCE = register("sesh_essence", new ShinyItem(
-				new Item.Settings()
-					.itemGroup(ModItemGroups.SESH)
-					.rarity(Rarity.EPIC)
-			)
-		);
-
 		register("seshanium_powder", new Item(
 				new Item.Settings()
 					.itemGroup(ModItemGroups.SESH)

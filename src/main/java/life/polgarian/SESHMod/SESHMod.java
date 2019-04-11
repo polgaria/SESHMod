@@ -18,8 +18,6 @@ public class SESHMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
-		ModStatusEffects.registerEffects();
-		ModPotions.registerPotions();
 		OreGeneration.registerOres();
 
 		SESHMod.addBonesEntitySpawn();

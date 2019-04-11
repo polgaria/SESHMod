@@ -7,11 +7,9 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModPotions {
-	private static void  register(String name, Potion potion) {
-		Registry.register(Registry.POTION, new Identifier("seshmod", name), potion);
-	}
+	public static final Potion SESH = register("sesh_potion", new Potion(new StatusEffectInstance(ModStatusEffects.SESH, 3600)));
 
-	public static void registerPotions() {
-		register("sesh_potion", new Potion(new StatusEffectInstance(ModStatusEffects.SESH, 3600)));
+	private static Potion register(String name, Potion potion) {
+		return Registry.register(Registry.POTION, new Identifier("seshmod", name), potion);
 	}
 }

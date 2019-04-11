@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  ],
+  "key": {
+    "B": {
+      "item": "seshmod:sesh_essence"
+    }
+  },
+  "result": {
+    "item": "seshmod:suicide_block",
+    "count": 1
+  }
+}

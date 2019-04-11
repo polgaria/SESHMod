@@ -1,6 +1,5 @@
 package life.polgarian.SESHMod.blocks;
 
-import life.polgarian.SESHMod.blocks.SuicideBlock;
 import life.polgarian.SESHMod.item.ModItemGroups;
 import net.fabricmc.fabric.api.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tag.FabricItemTags;
@@ -8,7 +7,6 @@ import net.minecraft.block.Block;
 import net.minecraft.block.Material;
 import net.minecraft.block.OreBlock;
 import net.minecraft.item.Item;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.block.BlockItem;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;

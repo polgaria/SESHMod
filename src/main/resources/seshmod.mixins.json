@@ -4,7 +4,8 @@
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "common.BiomeMixin",
-    "common.SpawnRestrictionMixin"
+    "common.SpawnRestrictionMixin",
+    "common.BrewingRecipeRegistryMixin"
   ],
   "client": [
     "client.BackgroundRendererMixin",

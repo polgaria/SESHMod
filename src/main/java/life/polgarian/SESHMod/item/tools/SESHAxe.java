@@ -1,4 +1,4 @@
-package life.polgarian.SESHMod.items.tools;
+package life.polgarian.SESHMod.item.tools;
 
 import net.minecraft.item.AxeItem;
 import net.minecraft.item.ToolMaterial;

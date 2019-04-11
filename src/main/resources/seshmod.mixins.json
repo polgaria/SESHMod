@@ -6,6 +6,10 @@
     "common.BiomeMixin",
     "common.SpawnRestrictionMixin"
   ],
+  "client": [
+    "client.BackgroundRendererMixin",
+    "client.CreativePlayerInventoryScreenMixin"
+  ],
   "injectors": {
     "defaultRequire": 1
   }

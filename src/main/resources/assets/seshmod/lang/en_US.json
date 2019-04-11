@@ -7,12 +7,26 @@
   "item.seshmod.sesh_sword": "The Blade of SESH",
   "item.seshmod.sesh_hoe": "SESH Hoe",
 
+  "item.seshmod.seshanium_powder": "SESHanium Powder",
+  "item.seshmod.sesh_essence":"SESH Essence",
+  "item.seshmod.sesh_handle": "SESH Handle",
+
+  "item.minecraft.potion.effect.sesh_potion": "SESH Potion",
+  "item.minecraft.splash_potion.effect.sesh_potion": "Splash Potion of SESH",
+  "item.minecraft.lingering_potion.effect.sesh_potion": "Lingering Potion of SESH",
+
+  "effect.seshmod.sesh": "SESH",
+
   "item.seshmod.teamsesh_beanie": "TeamSESH Beanie",
   "item.seshmod.teamsesh_shirt": "TeamSESH Shirt",
   "item.seshmod.teamsesh_pants": "TeamSESH Pants",
   "item.seshmod.creep_sneakers": "CREEP Sneakers",
 
   "block.seshmod.sesh_block": "SESH Block",
+  "block.seshmod.seshanium_ore": "SESHanium Ore",
+  "block.seshmod.suicide_block": "Suicide Block",
 
-  "entity.seshmod.bones": "BONES"
+  "entity.seshmod.bones": "BONES",
+
+  "itemGroup.seshmod.sesh": "SESH"
 }

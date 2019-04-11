@@ -14,7 +14,10 @@ public class BonesEntity extends ZombieEntity {
 	public static final EntityType<BonesEntity> BONES = Registry.register(
 		Registry.ENTITY_TYPE,
 		new Identifier("seshmod", "bones"),
-		FabricEntityTypeBuilder.create(EntityCategory.MONSTER, BonesEntity::new).size(EntitySize.constant(1, 2)).build()
+		FabricEntityTypeBuilder
+			.create(EntityCategory.MONSTER, BonesEntity::new)
+			.size(EntitySize.constant(1, 2))
+			.build()
 	);
 
 	private BonesEntity(EntityType<? extends ZombieEntity> entityType, World world) {

@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "BBB",
-    "BBB",
-    "BBB"
+    "   ",
+    "S S",
+    "S S"
   ],
   "key": {
-    "B": {
-      "item": "seshmod:molten_bone"
+    "S": {
+      "item": "seshmod:sesh_essence"
     }
   },
   "result": {
-    "item": "seshmod:sesh_block",
+    "item": "seshmod:creep_sneakers",
     "count": 1
   }
 }

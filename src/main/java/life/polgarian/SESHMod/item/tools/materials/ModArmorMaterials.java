@@ -1,6 +1,6 @@
-package life.polgarian.SESHMod.items.tools.materials;
+package life.polgarian.SESHMod.item.tools.materials;
 
-import life.polgarian.SESHMod.init.ModItems;
+import life.polgarian.SESHMod.item.ModItems;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.entity.EquipmentSlot;
@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
 	SESH("sesh", 6666, new int[]{666, 666, 666, 666}, 15, SoundEvents.ITEM_ARMOR_EQUIP_LEATHER, Float.MAX_VALUE, () -> {
-		return Ingredient.ofItems(ModItems.MOLTEN_BONE);
+		return Ingredient.ofItems(ModItems.SESH_ESSENCE);
 	});
 
 	private static final int[] BASE_DURABILITY = new int[]{13, 15, 16, 11};

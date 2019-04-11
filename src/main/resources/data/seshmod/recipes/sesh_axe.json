@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SH ",
+    " H "
+  ],
+  "key": {
+    "S": {
+      "item": "seshmod:sesh_essence"
+    },
+    "H": {
+      "item": "seshmod:sesh_handle"
+    }
+  },
+  "result": {
+    "item": "seshmod:sesh_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+    "type": "minecraft:crafting_shaped",
+   
+    "pattern":
+    [
+        " S ",
+        " S ",
+        " H "
+    ],
+   
+    "key":
+    {
+        "S":
+        {
+            "item": "seshmod:sesh_essence"
+        },
+   
+        "H":
+        {
+            "item": "seshmod:sesh_handle"
+        }
+    },
+   
+    "result":
+    {
+        "item": "seshmod:sesh_sword",
+        "count": 1
+    }
+}

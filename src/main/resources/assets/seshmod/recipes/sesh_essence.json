@@ -1,0 +1,13 @@
+{
+    "type": "crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "seshmod:molten_bone"
+        },
+        {
+            "item": "seshmod:seshanium_powder"
+        }
+    ],
+    "result": "seshmod:sesh_essence",
+    "count": 1
+}

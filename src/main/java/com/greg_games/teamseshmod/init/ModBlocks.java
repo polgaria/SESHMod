@@ -17,5 +17,4 @@ public class ModBlocks
 	//Blocks
 	public static final Block SESH_BLOCK = new SeshBlock("sesh_block", Material.IRON);
 	public static final Block SESHANIUM_ORE = new SeshaniumOre("seshanium_ore", Material.ROCK);
-
 }

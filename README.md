@@ -2,4 +2,7 @@
 A Minecraft mod that enhances the edgy teen twitter experience
 
 # Installation
-just install it
+I haven't released it yet.
+
+#Compiling
+Do it just like any other forge mod.
